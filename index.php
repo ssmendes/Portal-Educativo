@@ -24,7 +24,7 @@ $u = new Usuario;
 		</div>
 
 		<?php
-			if(isset($_POST['nome']))
+			if(isset($_POST['email']))
 			{
 				$email = addcslashes($_POST['email']);
 				$email = addcslashes($_POST['senha']);
